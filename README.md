@@ -1,7 +1,9 @@
 # Common Pastiche
 > A community art assignment
 
-This repository contains the source code for a live painting experience using computers and projectors. The code in the `web` directory enables participants to paint the surface of a virtual pyramid. It's written in JavaScript using [three.js](https://threejs.org/), [p5.js](https://p5js.org/). [Pure CSS](https://purecss.io/) made the interface look good. The code in the `rpi` directory synchroinzes a set of projectors that project paintings onto the surface of a real pyramid. It's written in Python and uses the [py5](https://py5coding.org/) and [Keystone](https://github.com/davidbouchard/keystone) packages. [Firebase](https://firebase.google.com/) is used for messaging and image storage.
+![A person displaying a drawing of a pyramid on a tablet. They are standing in front of a pyramid with their drawing projected onto its surface.](common_pastiche.jpeg)
+
+This repository contains the source code for a live painting experience using computers and projectors. The code in the `web` directory enables participants to paint the surface of a virtual pyramid. It's written in JavaScript using [three.js](https://threejs.org/) and [p5.js](https://p5js.org/). [Pure CSS](https://purecss.io/) made the interface look good. The code in the `rpi` directory synchroinzes a set of projectors that project paintings onto the surface of a real pyramid. It's written in Python and uses the [py5](https://py5coding.org/) and [Keystone](https://github.com/davidbouchard/keystone) packages. [Firebase](https://firebase.google.com/) is used for messaging and image storage.
 
 ## A little background
 
@@ -27,4 +29,3 @@ The `web` directory can be deployed to a Firebase project with Realtime Databse,
 
 The `rpi` directory can be deployed to a Raspberry Pi running a 64-bit Raspberry Pi OS. I used [RealVNC](https://www.realvnc.com/en/) to remotely manage four Pi's with 8GB of RAM.
 
-![A person displaying a drawing of a pyramid on a tablet. They are standing in front of a pyramid with their drawing projected onto its surface.](common_pastiche.jpeg)
