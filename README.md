@@ -9,7 +9,7 @@ The *Common Pastiche* project was funded by the City of Galveston's Cultural Art
 
 The word "empathy" was created in the early 20th century as a model for art appreciation. In that context, empathy described the act of projecting one’s feelings into an artwork in order to appreciate it. At the same time, we know that art often serves as a window into the feelings of a subject or artist The job of the artist, then, is twofold: they must open a window for the viewer and construct an object for projection.
 
-This is our little mediation on empathy. Making art, and sharing that experience with others, makes us more empathetic. I'm grateful for the opportunity to explore new media with friends and to share it with our community. Thank you Catherine Stroud, Chris Shinn, Jean Shon, and Troy Buhler.
+This is our little meditation on empathy. Making art, and sharing that experience with others, makes us more empathetic. I'm grateful for the opportunity to explore new media with friends and to share it with our community. Thank you Catherine Stroud, Chris Shinn, Jean Shon, and Troy Buhler.
 
 ## Firebase Deployment
 
