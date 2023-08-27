@@ -1,15 +1,23 @@
 # Common Pastiche
 > A community art assignment
 
-This repository contains the source code for a live painting experience using computers and projectors. The code in the `web` directory enables participants to paint the surface of a virtual pyramid. It's written in JavaScript using [three.js](https://threejs.org/), [p5.js](https://p5js.org/), and [Pure CSS](https://purecss.io/). The code in the `rpi` directory synchroinzes a set of projectors that project paintings onto the surface of a real pyramid. It's written in Python and uses the [py5](https://py5coding.org/) and [Keystone](https://github.com/davidbouchard/keystone) packages. [Firebase](https://firebase.google.com/) is used for messaging and image storage.
+This repository contains the source code for a live painting experience using computers and projectors. The code in the `web` directory enables participants to paint the surface of a virtual pyramid. It's written in JavaScript using [three.js](https://threejs.org/), [p5.js](https://p5js.org/). [Pure CSS](https://purecss.io/) made the interface look good. The code in the `rpi` directory synchroinzes a set of projectors that project paintings onto the surface of a real pyramid. It's written in Python and uses the [py5](https://py5coding.org/) and [Keystone](https://github.com/davidbouchard/keystone) packages. [Firebase](https://firebase.google.com/) is used for messaging and image storage.
 
 ## A little background
 
-The *Common Pastiche* project was funded by the City of Galveston's Cultural Arts Commission in July 2022. Its first run was held at the Galveston Arts Center in August 2023. Thanks CAC and GAC! The idea evolved through conversations with friends about perception and ways that technology can help us to understand each other. Early iterations focused on style transfer and "seeing" the world through the eyes of others. This led to more research on empathy.
+**com·mon | ˈkämən |** *shared by, coming from, or done by more than one*
 
-The word "empathy" was created in the early 20th century as a model for art appreciation. In that context, empathy described the act of projecting one’s feelings into an artwork in order to appreciate it. At the same time, we know that art often serves as a window into the feelings of a subject or artist The job of the artist, then, is twofold: they must open a window for the viewer and construct an object for projection.
+**pas·tiche | paˈstēSH, päˈstēSH |** *an artistic work consisting of a medley of pieces taken from various sources*
+
+**em·pa·thy | ˈempəTHē |** *the ability to understand and share the feelings of another*
+
+The idea for *Common Pastiche* evolved through conversations about perception and ways technology can help us understand each other. Early iterations focused on style transfer and "seeing" the world through the eyes of others. This led to more research on empathy.
+
+The word "empathy" was created in the early 20th century as a model for art appreciation. In that context, empathy described the act of projecting one’s feelings into an artwork in order to appreciate it. At the same time, we know that art often serves as a window into the feelings of a subject or artist. The job of the artist, then, is twofold: they must open a window for the viewer and construct an object for projection.
 
 This is our little meditation on empathy. Making art, and sharing that experience with others, makes us more empathetic. I'm grateful for the opportunity to explore new media with friends and to share it with our community. Thank you Catherine Stroud, Chris Shinn, Jean Shon, and Troy Buhler.
+
+The project was funded by the City of Galveston's Cultural Arts Commission in July 2022. Its first run was held at the Galveston Arts Center in August 2023. Thanks CAC and GAC!
 
 ## Firebase Deployment
 
