@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <title>Common Pastiche</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"></script>
+    <link rel="stylesheet" href="../css/pure-min.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <script src="https://kit.fontawesome.com/sign-up-its-free.js" crossorigin="anonymous"></script>
+    <script defer src="/__/firebase/10.1.0/firebase-app-compat.js"></script>
+    <script defer src="/__/firebase/10.1.0/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/10.1.0/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/init.js?useEmulator=false"></script>
+</head>
+
+<body>
+    <!--
+        Adapted from Pure CSS menu examples.
+        https://purecss.io/menus/
+    -->
+    <div class="pure-menu pure-menu-horizontal" id="main-menu">
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+                <a href="#" class="pure-menu-link"><i class="fa-solid fa-spray-can-sparkles"></i> Size</a>
+                <ul class="pure-menu-children" style="text-align: center; width: 100%;">
+                    <li class="pure-menu-item">
+                        <a href="#" id="spray-xlarge" class="pure-menu-link"><i class="fa-solid fa-circle"
+                                style="font-size: 36px;"></i></a>
+                    </li>
+                    <li class="pure-menu-item">
+                        <a href="#" id="spray-large" class="pure-menu-link"><i class="fa-solid fa-circle"
+                                style="font-size: 30px;"></i></a>
+                    </li>
+                    <li class="pure-menu-item">
+                        <a href="#" id="spray-medium" class="pure-menu-link"><i class="fa-solid fa-circle"
+                                style="font-size: 24px;"></i></a>
+                    </li>
+                    <li class="pure-menu-item">
+                        <a href="#" id="spray-small" class="pure-menu-link"><i class="fa-solid fa-circle"></i></a>
+                    </li>
+                </ul>
+            </li>
+            <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+                <a href="#" class="pure-menu-link"><i class="fa-solid fa-palette"></i> Color</a>
+                <ul class="pure-menu-children" style="width: 100%;">
+                    <li class="pure-menu-item">
+                        <a href="#" id="color-brown" class="pure-menu-link" style="color: saddlebrown;"><i
+                                class="fa-solid fa-square"></i> Brown</a>
+                    </li>
+                    <li class="pure-menu-item">
+                        <a href="#" id="color-red" class="pure-menu-link" style="color: crimson;"><i
+                                class="fa-solid fa-square"></i> Red</a>
+                    </li>
+                    <li class="pure-menu-item">
+                        <a href="#" id="color-orange" class="pure-menu-link" style="color: orange;"><i
+                                class="fa-solid fa-square"></i> Orange</a>
+                    </li>
+                    <li class="pure-menu-item">
+                        <a href="#" id="color-yellow" class="pure-menu-link" style="color: gold;"><i
+                                class="fa-solid fa-square"></i> Yellow</a>
+                    </li>
+                    <li class="pure-menu-item">
+                        <a href="#" id="color-green" class="pure-menu-link" style="color: forestgreen;"><i
+                                class="fa-solid fa-square"></i> Green</a>
+                    </li>
+                    <li class="pure-menu-item">
+                        <a href="#" id="color-blue" class="pure-menu-link" style="color: royalblue;"><i
+                                class="fa-solid fa-square"></i> Blue</a>
+                    </li>
+                    <li class="pure-menu-item">
+                        <a href="#" id="color-purple" class="pure-menu-link" style="color: darkorchid;"><i
+                                class="fa-solid fa-square"></i> Purple</a>
+                    </li>
+                    <li class="pure-menu-item">
+                        <a href="#" id="color-black" class="pure-menu-link" style="color: #333;"><i
+                                class="fa-solid fa-square"></i> Black</a>
+                    </li>
+                    <li class="pure-menu-item">
+                        <a href="#" id="color-white" class="pure-menu-link" style="color: #333;"><i
+                                class="fa-regular fa-square"></i> White</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="pure-menu-item">
+                <a href="#" id="enter-orbit" class="pure-menu-link"><i
+                        class="fa-solid fa-arrows-up-down-left-right"></i> Move</a>
+            </li>
+        </ul>
+    </div>
+    <div id="container"></div>
+    <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.155.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.155.0/examples/jsm/"
+            }
+        }
+        </script>
+    <script type="module" src="../js/painter.js"></script>
+    <script src="../js/pastiche_live.js"></script>
+</body>
+
+</html>

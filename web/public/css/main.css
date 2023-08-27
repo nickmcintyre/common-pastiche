@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    touch-action: none;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+}
+
+.dg,
+.dg input {
+    font-size: 18px !important;
+}
+
+.dg li:not(.folder) {
+    height: 30px !important;
+}
+
+.dg.main .close-button {
+    line-height: 29px !important;
+    height: 30px !important;
+}
+
+.dg .c select {
+    font-size: 16px !important;
+    margin-top: 4px !important;
+}
+
+.dg .c input[type=text] {
+    margin-top: 2px !important;
+}
+
+.pure-menu-link {
+    border: 2px #fff solid;
+}
+
+.selected {
+    border: 2px #777 dashed;
+}
+
+#zoom-buttons {
+    position: absolute;
+    left: 85vw;
+    top: 6vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#zoom-in,
+#zoom-out,
+#submit-drawing {
+    color: #777;
+    border: none;
+    border-radius: 4px;
+    margin: 1px;
+}
+
+#submit-drawing {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 90vh;
+    width: 150px;
+}
+
+#drawing-title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: calc(85vh - 20px);
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px #ddd;
+    box-sizing: border-box;
+    font-family: Helvetica,Arial,sans-serif;
+    letter-spacing: .01em;
+    font-size: 100%;
+    line-height: 1.15;
+    color: #777;
+    padding: .5em .6em;
+}
+
+@media (orientation: landscape) {
+    #zoom-buttons {
+        left: 92vw;
+        top: 14vh;
+    }
+
+    #drawing-title {
+        top: calc(90vh - 40px);
+    }
+
+    #submit-drawing {
+        top: 90vh;
+    }
+}
